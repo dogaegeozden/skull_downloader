@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Skull Downloader</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">MainWindow {
+background-color: black; 
+background-image:url(./images/background_image.png); 
+background-repeat: no-repeat;
+}</string>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#central_widget {
+	opacity: 0;
+}</string>
+   </property>
+   <widget class="QLabel" name="skull_downloader_logo_label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../resources.qrc">:/logos/skull_logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="media_format_label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#media_format_label {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Out put format</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="url_label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>280</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#url_label {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>URL</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="media_format_choice_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>340</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Audio</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Video</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="url_line_edit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the url here...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="download_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>340</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="info_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>450</y>
+      <width>400</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#info_label {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="help_menu">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="credits_action_button"/>
+    <addaction name="help_page_action_button"/>
+   </widget>
+   <addaction name="help_menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="credits_action_button">
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </action>
+  <action name="help_page_action_button">
+   <property name="text">
+    <string>Help Page</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
