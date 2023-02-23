@@ -5,7 +5,7 @@
 1) ```curl -L https://github.com/dogaegeozden/skull_downloader/releases/download/Download/skull-downloader.deb -o skull-downloader.deb```
 2) ```sudo dpkg -i skull-downloader.deb```
 
-![AppScreenShot](https://raw.githubusercontent.com/dogaegeozden/skull_downloader/main/app_screenshot.png)
+![AppScreenShot](https://raw.githubusercontent.com/dogaegeozden/skull_downloader/main/screenshot.png)
 
 ## HELP
 

@@ -9,4 +9,4 @@
 
 ## HELP
 
-Skull downloader is downloading media from YouTube using pytube package. And, there is a problem with download it may turn back to normal couple days later.
+Skull downloader is downloading media from YouTube using pytube package. And, if there is a problem with download it may turn back to normal couple days later.
