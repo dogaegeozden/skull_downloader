@@ -27,7 +27,7 @@ Skull downloader is downloading media from YouTube using pytube package. And, if
 # SKULL DOWNLOADER
 ![SkullDownloaderLogo](https://raw.githubusercontent.com/dogaegeozden/skull_downloader/main/logos/skull_downloader_logo_rounded_corners.png)
 
-Skull Downloader kullanıcıların YouTube'dan ücretsiz müzik indirmesine yarayan bir bilgisayar uygulamasıdır
+Skull Downloader kullanıcıların YouTube'dan ücretsiz medya indirmesine yarayan bir bilgisayar uygulamasıdır
 
 ## YÜKLEME
 1) Yükleyiciyi indir
