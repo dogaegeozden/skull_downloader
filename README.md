@@ -12,6 +12,12 @@ Skull Downloader is a desktop application which allows users to download media f
 
 		sudo dpkg -i skull-downloader.deb
 
+3) Start the app
+
+		skull-downloader
+	
+<br>
+
 ![AppScreenShot](https://raw.githubusercontent.com/dogaegeozden/skull_downloader/main/app_scs/app_sc.png)
 
 ## HELP
@@ -37,7 +43,13 @@ Skull Downloader kullanıcıların YouTube'dan ücretsiz medya indirmesine yaray
 2) Yükleyiciyi başlat
 
 		sudo dpkg -i skull-downloader.deb
-		
+
+3) Uygulamayı başlat
+
+		skull-downloader
+
+<br>
+
 ![AppScreenShot](https://raw.githubusercontent.com/dogaegeozden/skull_downloader/main/app_scs/app_sc.png)
 
 ## YARDIM
