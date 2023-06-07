@@ -6,7 +6,7 @@ Skull Downloader is a desktop application which allows users to download media f
 ## INSTALLATION
 1) Download the installer
 
-		curl -L https://github.com/dogaegeozden/skull_downloader/releases/download/Download/skull-downloader.deb -o skull-downloader.deb
+		curl -L https://github.com/dogaegeozden/skull_downloader/releases/download/YouTube/skull-downloader.deb -o skull-downloader.deb
 
 2) Start the installer
 
@@ -32,7 +32,7 @@ Skull Downloader kullanıcıların YouTube'dan ücretsiz medya indirmesine yaray
 ## YÜKLEME
 1) Yükleyiciyi indir
 
-		curl -L https://github.com/dogaegeozden/skull_downloader/releases/download/Download/skull-downloader.deb -o skull-downloader.deb
+		curl -L https://github.com/dogaegeozden/skull_downloader/releases/download/YouTube/skull-downloader.deb -o skull-downloader.deb
 
 2) Yükleyiciyi başlat
 
