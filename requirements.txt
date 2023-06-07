@@ -1,0 +1,6 @@
+altgraph==0.17.3
+pyinstaller==5.11.0
+pyinstaller-hooks-contrib==2023.3
+PySide2==5.15.2.1
+pytube==12.1.2
+shiboken2==5.15.2.1

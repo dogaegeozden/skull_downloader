@@ -1,0 +1,13 @@
+[Desktop Entry]
+# The type of the thing this desktop file refers to (e.g. can beLink)
+Type=Application
+# The application name.
+Name=Skull Downloader
+# Tooltip comment to show in menus.
+Comment=A desktop application which downloads music or video from YouTube.
+# The path (folder) in which the executable is run
+Path=/opt/skull_downloader
+# The executable (can include arguments)
+Exec=/opt/skull_downloader/skull_downloader
+# The icon for the entry, use the target filesystem path.
+Icon=/usr/share/icons/hicolor/scalable/apps/skull_downloader_logo_rounded_corners.png

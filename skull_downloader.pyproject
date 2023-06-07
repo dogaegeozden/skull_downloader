@@ -1,0 +1,3 @@
+{
+    "files": ["resources.qrc","user_interfaces/main_window.ui","user_interfaces/credits_win.ui"]
+}

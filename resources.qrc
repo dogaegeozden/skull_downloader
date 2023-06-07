@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/logos">
+        <file alias="skull_logo.png">logos/skull_logo_transparent_background.png</file>
+    </qresource>
+</RCC>
