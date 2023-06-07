@@ -1,3 +1,3 @@
 {
-    "files": ["resources.qrc","user_interfaces/main_window.ui","user_interfaces/credits_win.ui"]
+    "files": ["resources.qrc","guis/main_window.ui","guis/credits_win.ui"]
 }
